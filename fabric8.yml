@@ -1,0 +1,11 @@
+---
+buildName: "golang-example3"
+links:
+  Git: "git@github.com:u2takey/golang-example.git"
+  Job: "http://jenkins.fabric.172.20.2.38.nip.io/job/golang-example3"
+  Production: "http://10.109.86.180:80/kubernetes/pods?namespace=fabric-production"
+  Staging: "http://10.109.86.180:80/kubernetes/pods?namespace=fabric-staging"
+environments:
+  Staging: "fabric-staging"
+  Production: "fabric-production"
+useLocalFlow: true
